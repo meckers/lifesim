@@ -1,0 +1,35 @@
+body {
+    font-family: verdana, arial, helvetica;
+}
+
+#world {
+    width: 240px;
+    height: 240px;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    float: left;
+}
+
+.mapobject {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+.human {
+    background-color: blue;
+}
+
+.male {
+    background-color: lightblue;
+}
+
+.female {
+    background-color: pink;
+}
